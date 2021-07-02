@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+
+</head>
+
+<body>
+    <!-- <nav class="navbar navbar-light sticky-top" style="background-color: #B4D4D1;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Climate Change</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="animation.html">Animation</a>
+                    <a class="nav-link" href="#">Maps</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div>
+      </nav> -->
+
+    <nav class="navbar navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Climate_change">Climate Change</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    <a class="nav-link" href="animation.html">Climate Change Animation</a>
+                </div>
+            </div>
+            <button class="btn btn-outline-success me-2 nav-btn-positioning" type="button"><a href="#main-menu"
+                class="btn-nav-link">Back to selector menu</a></button>
+        </div>
+    </nav>
+
+    <h1 class="display-1">Climate Change</h1>
+
+    <div class="card-group">
+        <div class="card border-primary" style="width: 330px;">
+            <div class="card-body info-1">
+                <h5 class="card-title">Arctic Ice Minimum</h5>
+                <p class="card-text">&darr; 13.1<sup> percent per decade</sup></p>
+                <!-- <a href="https://climate.nasa.gov/" class="btn btn-primary">Button</a> -->
+            </div>
+        </div>
+
+        <div class="card border-primary" style="width: 330px;">
+            <div class="card-body info-2">
+                <h5 class="card-title">Ice Sheets</h5>
+                <p class="card-text">&darr; 428<sup> billion metric tons per year</sup></p>
+                <!-- <a href="#" class="btn btn-primary">Button</a> -->
+            </div>
+        </div>
+
+        <div class="card border-primary" style="width: 330px;">
+            <div class="card-body info-3">
+                <h5 class="card-title">Sea Level</h5>
+                <p class="card-text">&uarr; 3.3<sup> millimeters per year</sup></p>
+                <!-- <a href="#" class="btn btn-primary">Button</a> -->
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="card-group">
+        <div class="card border-primary" style="width: 330px;">
+            <div class="card-body info-4">
+                <h5 class="card-title">Ocean Heat Added</h5>
+                <p class="card-text">&uarr; 326<sup> zettajoules since 1955</sup></p>
+                <!-- <a href="#" class="btn btn-primary">Button</a> -->
+            </div>
+        </div>
+
+        <div class="card border-primary" style="width: 330px;">
+            <div class="card-body info-5">
+                <h5 class="card-title">Carbon Dioxide</h5>
+                <p class="card-text">&uarr; 416<sup> parts per million</sup></p>
+                <!-- <a href="#" class="btn btn-primary">Button</a> -->
+            </div>
+        </div>
+
+        <div class="card border-primary" style="width: 330px;">
+            <div class="card-body info-6">
+                <h5 class="card-title">Global Temperature</h5>
+                <p class="card-text">&uarr; 2.1<sup> &deg;F since 1880</sup></p>
+                <!-- <a href="#" class="btn btn-primary">Button</a> -->
+            </div>
+        </div>
+    </div>
+
+
+    <h2>What is Climate? How is it different from Weather?</h2>
+    <p>You may be aware of the current weather conditions. The variations we see and experience outside from day to day
+        are referred to as weather. One day it may rain, and the next it may be bright. It becomes chilly at times. It
+        may get rather heated at times. The weather varies from location to area as well. In one location, people may be
+        wearing shorts and playing outside. People far away may be shovelling snow at the same moment.
+        Climate refers to a location's typical weather. Seasonal climates can be rather diverse. In the summer, a
+        location may be generally warm and dry. In the winter, the same location may be cold and damp. Climates differ
+        depending on where you are. It's possible that you live somewhere where it snows all of the time. And other
+        people live in climates where swimming is always possible outside.</p>
+    <br>
+
+    <div class="main-content" id="main-menu">
+        <a href="#evidence-start" class="circle-links">
+            <div class="content-circle circle-1" id="circle-1">
+                <h4 class="content-text evidence">Evidence</h4>
+            </div>
+        </a>
+
+        <a href="#causes-start" class="circle-links">
+            <div class="content-circle" id="circle-2">
+                <h4 class="content-text">Causes</h4>
+            </div>
+        </a>
+
+        <a href="#effects-start" class="circle-links">
+            <div class="content-circle" id="circle-3">
+                <h4 class="content-text effects">Effects</h4>
+            </div>
+        </a>
+
+        <a href="#solutions-start" class="circle-links">
+            <div class="content-circle" id="circle-4">
+                <h4 class="content-text solutions">Solutions</h4>
+            </div>
+        </a>
+    </div>
+
+
+    <h2>What is Climate Change?</h2>
+    <p>Earth’s climate has constantly been changing — even long before humans came into the picture. However, scientists
+        have observed unusual changes recently. For example, Earth’s average temperature has been increasing much more
+        quickly than they would expect over the past 150 years. Climate change is defined as a long-term shift in the
+        average circumstances of a region, such as temperature and rainfall. The Earth's surface is warming, according
+        to NASA scientists, and several of the warmest years on record have occurred in the last 20 years. The average
+        long-term changes throughout the entire Earth are referred to as global climate change. Warming temperatures and
+        variations in precipitation are examples, as are the impacts of global warming, such as:</p>
+    <ul>
+        <li>Rising sea levels</li>
+        <li>Shrinking mountain glaciers</li>
+        <li>Ice melting at a faster rate than usual in Greenland, Antarctica and the Arctic</li>
+        <li>Changes in flower and plant blooming times.</li>
+    </ul>
+
+    <hr>
+    <h2 class="main-topic" id="evidence-start">Evidence</h2>
+    <hr>
+
+    <h2>How do we know climate change is real?</h2>
+    <img src="evidence-graph.jpg" class="img-fluid" alt="Graph showing evidence that climate change infact does exist"
+        style="width: 65%; margin-left: 18%;">
+    <p>The climate of the Earth has shifted over time. There have been seven cycles of glacial advance and retreat in
+        the last 650,000 years, with the abrupt end of the last ice age marking the start of the current climatic era –
+        and of human civilization. The majority of these climatic shifts are due to minute changes in Earth's orbit that
+        alter the quantity of solar energy received by our planet.</p>
+    <hr>
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <p style="color: #056db6; font-weight: 700;">Scientific evidence for warming of the climate system is
+                unequivocal.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Intergovernmental Panel on Climate Change
+        </figcaption>
+    </figure>
+    <hr>
+    <p>The current warming trend is noteworthy because the majority of it is highly likely (more than 95 percent
+        likelihood) to be the consequence of human activities since the mid-twentieth century, and it is occurring at an
+        unprecedented rate spanning millennia.
+        Scientists have been able to view the big picture because to Earth-orbiting satellites and other technical
+        developments, which have allowed them to collect a wide range of data on our planet and its climate on a global
+        scale. The indications of a changing climate are shown in this corpus of data, which has been gathered over many
+        years.
+        Carbon dioxide and other gases' ability to trap heat was shown in the mid-nineteenth century. Many NASA sensors
+        are based on their capacity to influence the passage of infrared light through the atmosphere. There is no doubt
+        that rising quantities of greenhouse gases will cause the Earth to warm.
+        Greenland, Antarctica, and tropical mountain glaciers have all provided ice cores that show how the Earth's
+        climate responds to changes in greenhouse gas levels. Tree rings, ocean sediments, coral reefs, and layers of
+        sedimentary rocks all contain ancient evidence. The current pace of warming is about 10 times higher than the
+        typical rate of ice-age recovery, according to this old, or paleoclimate, evidence. After the last Ice Age,
+        carbon dioxide from human activities increased more than 250 times faster than it did from natural sources.</p>
+
+    <hr>
+    <h2 class="main-topic" id="causes-start">Causes</h2>
+    <hr>
+    <h2>The causes of Climate Change</h2>
+    <div class="ratio ratio-16x9">
+        <iframe src="D:\climate change website\126_Greenhouse_effect_revised_HD_English.m4v"
+            alt="Video showing greenhouse effect"></iframe>
+    </div>
+    <br>
+    <p>The "greenhouse effect"— warming that occurs when the atmosphere traps heat emanating from Earth toward space —
+        has been expanding due to human growth since the mid-twentieth century, according to scientists.
+
+        The presence of some gases in the atmosphere prevents heat from escaping. Long-lived gases that remain in the
+        atmosphere semi-permanently and do not respond physically or chemically to temperature changes are referred to
+        as "forcing" climate change. "Feedbacks" are gases, such as water vapour, that react physically or chemically to
+        temperature changes.</p>
+    <p>Gases that contribute to the greenhouse effect include:</p>
+    <img src="gases-that-contribute.jpg" class="img-fluid"
+        alt="image showing the gases that cause climate change also known as greenhouse gases"
+        style="width: 50%; margin-left: 24%">
+    <ul>
+        <li class="gases">Water vapor</li>
+        <p class="gases-content">It is the most prevalent greenhouse gas, but it also serves as a climatic feedback. As
+            the Earth's atmosphere warms, water vapour levels rise, but so do the chances of clouds and precipitation,
+            making these two feedback processes crucial to the greenhouse effect.</p>
+
+        <li class="gases">Carbon dioxide (CO<sub>2</sub>)</li>
+        <p class="gases-content">Carbon dioxide, a tiny but essential component of the atmosphere, is emitted by natural
+            processes such as respiration and volcano eruptions, as well as by human activity such as deforestation,
+            land use changes, and fossil fuel combustion. Since the start of the Industrial Revolution, humans have
+            raised CO<sub>2</sub> levels in the atmosphere by 48%. The most important long-term "forcing" of climate
+            change is
+            this.</p>
+
+        <li class="gases">Methane</li>
+        <p class="gases-content">A hydrocarbon gas generated by both natural and human sources, such as waste
+            decomposition in landfills, agriculture, and particularly rice cultivation, as well as ruminant digestion
+            and manure management in domestic cattle. Methane is a considerably more active greenhouse gas than carbon
+            dioxide molecule for molecule, but it is also far less prevalent in the atmosphere.</p>
+
+        <li class="gases">Nitrous oxide</li>
+        <p class="gases-content">Soil cultivation techniques, particularly the use of commercial and organic
+            fertilisers, fossil fuel combustion, nitric acid generation, and biomass burning, all create a significant
+            amount of this potent greenhouse gas.</p>
+
+        <li class="gases">Chlorofluorocarbons (CFCs)</li>
+        <p class="gases-content">Synthetic chemicals completely of industrial origin utilised in a variety of purposes,
+            but now mainly controlled in manufacture and release to the atmosphere due to their ability to contribute to
+            ozone layer depletion by international agreement. In addition, they are greenhouse gases.</p>
+    </ul>
+
+    <p>Human actions on Earth are altering the natural greenhouse. The combustion of fossil
+        fuels such as coal and oil has raised the concentration of carbon dioxide in the atmosphere during the
+        last
+        century (CO<sub>2</sub>). This occurs because the combustion of coal or oil produces CO<sub>2</sub> by combining
+        carbon in the
+        air
+        with oxygen. The clearing of land for agriculture, industry, and other human activities has raised
+        greenhouse gas concentrations to a lesser amount.</p>
+
+
+    <h2 class="pie-text">Global Greenhouse gas emissions by each economic sector</h2>
+    <img src="contribution-of-economic-sector.png" class="img-fluid"
+        alt="Pie chart depicting contribution of the economic sectors to Climate change"
+        style="width: 60%; margin-left: 22.5%">
+
+    <hr>
+    <h2 id="effects-start" class="main-topic">Effects</h2>
+    <hr>
+
+    <h2>The effects of climate change</h2>
+    <img src="climate-change-carousel-shutterstock-01142014 (1).jpg" class="img-fluid"
+        alt="image depicting climate change effects" style="width: 55%; margin-left: 22.5%;">
+    <p>The environment has already been affected by global climate change. Glaciers have decreased, ice on rivers and
+        lakes has broken up earlier, plant and animal ranges have moved, and trees have begun to bloom earlier.
+
+        Sea ice loss, increased sea level rise, and longer, more severe heat waves are all effects that experts
+        anticipated would occur as a result of global climate change in the past.</p>
+    <hr>
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <p style="color: #056db6; font-weight: 700;">Taken as a whole, the range of published evidence indicates
+                that the net damage costs of climate change are likely to be significant and to increase over time.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Intergovernmental Panel on Climate Change
+        </figcaption>
+    </figure>
+    <hr>
+
+    <p>Scientists are confident that global temperatures will continue to increase for decades to come, owing in major
+        part to greenhouse gas emissions caused by human activity. Over 1,300 experts from the United States and other
+        nations make up the Intergovernmental Panel on Climate Change (IPCC), which predicts a temperature rise of 2.5
+        to 10 degrees Fahrenheit over the next century.</p>
+    <!-- <br> -->
+    <p>The amount of climate change effects on specific regions will vary over time and with the ability of various
+        societal and environmental systems to prevent or adapt to change, according to the IPCC.</p>
+    <!-- <br> -->
+    <p>Increases in global mean temperature of less than 1.8 to 5.4 degrees Fahrenheit (1 to 3 degrees Celsius) over
+        1990 levels, according to the IPCC, will have good effects in certain places and negative effects in others. As
+        global temperatures rise, net yearly expenses will rise as well.</p>
+    <!-- <br> -->
+    <p>"The breadth of available data indicates that the net damage costs of climate change are expected to be
+        considerable and to grow over time," the IPCC adds.</p>
+
+    <h2>Future Effects</h2>
+    <p>Some of the long-term effects of global climate change in the United States are as follows, according to the
+        Third and Fourth National Climate Assessment Reports:</p>
+
+    <div class="card" style="width: 18rem; margin-left: 1%; display: inline-block;">
+        <img src="Bhattachayra_hero_1200px.jpg" class="card-img-top"
+            alt="image showing changes of global climate change">
+        <div class="card-body">
+            <h2>Change Will Continue Through This Century and Beyond</h2>
+            <p class="card-text">Global climate is projected to continue to change over this century and beyond. The
+                magnitude of climate change beyond the next few decades depends primarily on the amount of heat-trapping
+                gases emitted globally, and how sensitive the Earth’s climate is to those emissions.</p>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin-left: 3.5%; display: inline-block; margin-bottom: 5%;">
+        <img src="earth-temperature.gif" class="card-img-top" alt="GIF showing increase in temperature">
+        <div class="card-body">
+            <h2>Temperatures Will Continue to Rise</h2>
+            <p class="card-text">The temperature rise has not been, and will not be, uniform or smooth across the
+                country or over time, because human-induced warming is overlaid atop a naturally variable environment.
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin-left: 3.5%; display: inline-block;">
+        <img src="images.jpg" class="card-img-top" alt="image showing effect of frost free season">
+        <div class="card-body">
+            <h2>Frost-free Season (and Growing Season) will Lengthen</h2>
+            <p class="card-text">The length of the frost-free season (and the corresponding growing season) has been
+                increasing nationally since the 1980s, with the largest increases occurring in the western United
+                States, affecting ecosystems and agriculture. Across the United States, the growing season is projected
+                to continue to lengthen.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin-left: 3.5%; margin-right: 1%; display: inline-block;">
+        <img src="17_rainfall_1.jpg" class="card-img-top" alt="image showing high precipitation">
+        <div class="card-body">
+            <h2>Changes in Precipitation Patterns</h2>
+            <p class="card-text">Since 1900, average precipitation in the United States has grown, although certain
+                places have had higher increases than the national average, while others have seen declines. Over the
+                next century, the northern United States will receive more winter and spring precipitation, while the
+                Southwest will receive less.</p>
+            <br>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin-left: 1%; display: inline-block;">
+        <img src="drought.jpg" class="card-img-top" alt="image showing drought">
+        <div class="card-body">
+            <h2>More Droughts and Heat Waves</h2>
+            <p class="card-text">Droughts in the Southwest and heat waves (periods of extremely hot weather lasting days
+                to weeks) are expected to worsen, while cold waves are expected to become less severe.
+                Summer temperatures are expected to continue to rise, and much of the western and central United States
+                will experience a loss in soil moisture, which will intensify heat waves. What were once-in-a-decade
+                severe heat days (one-day occurrences) are expected to occur every two or three years over much of the
+                country by the end of this century.
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin-left: 3.5%; display: inline-block;">
+        <img src="hurricane.jpg" class="card-img-top" alt="image showing hurricanes">
+        <div class="card-body">
+            <h2>Hurricanes Will Become Stronger and More Intense</h2>
+            <p class="card-text">Since the early 1980s, the strength, frequency, and length of storms in the North
+                Atlantic, as well as the frequency of the strongest (Category 4 and 5) hurricanes, have all increased.
+                Human and natural sources' respective contributions to these increases are yet unknown. As the climate
+                continues to warm, hurricane-related storm strength and rainfall rates are expected to rise.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin-left: 3.5%; display: inline-block;">
+        <img src="sea level rise.jpg" class="card-img-top" alt="image showing sea level rise">
+        <div class="card-body">
+            <h2>Sea Level Will Rise 1-8 feet by 2100</h2>
+            <p class="card-text">Since accurate record keeping began in 1880, the global sea level has increased by
+                roughly 8 inches. By 2100, it is expected to rise another 1 to 8 feet. This is due to the addition of
+                water from melting land ice and the expansion of warm saltwater.
+
+                Storm surges and high tides might combine with sea level rise and ground subsidence in the next decades
+                to exacerbate floods in many areas. Because the seas take a long time to adapt to warmer temperatures at
+                the Earth's surface, sea level rise will continue into 2100. As a result, ocean waters will continue to
+                warm and sea levels will rise at rates comparable to or greater than those of the present century for
+                many centuries.</p>
+            <br>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin-left: 3.5%; display: inline-block;">
+        <img src="ice level.jpg" class="card-img-top" alt="image showing arctic ice decreasing">
+        <div class="card-body">
+            <h2>Sea Level Will Rise 1-8 feet by 2100</h2>
+            <p class="card-text">Before mid-century, the Arctic Ocean is anticipated to be ice-free in the summer.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <hr>
+    <h2 id="solutions-start" class="main-topic">Solutions</h2>
+    <hr>
+
+    <h2>Ways to solve Climate Change</h2>
+
+    <body>
+        <input type="radio" class="carousel-btn" name="position" checked />
+        <input type="radio" class="carousel-btn" name="position" />
+        <input type="radio" class="carousel-btn" name="position" />
+        <input type="radio" class="carousel-btn" name="position" />
+        <input type="radio" class="carousel-btn" name="position" />
+        <main id="carousel">
+            <div class="item">
+                <h2 class="carousel-text">Cut emissions</h2>
+                <p>Global warming is mostly caused by carbon dioxide and other heat-trapping gases. While it is
+                    impossible to stop climate change, it can be delayed.
+                    We must achieve "net zero" carbon emissions by 2050 or sooner to prevent the worst effects of
+                    climate change.</p>
+            </div>
+            <div class="item">
+                <h2 class="carousel-text">Fight disinformation</h2>
+                <p>For years, media commentators, political think tanks, and special interest groups financed by fossil
+                    fuel industries have cast doubt on global warming's reality. This deluge of misinformation confuses
+                    and misleads the public about the rising dangers of global warming.</p>
+            </div>
+            <div class="item">
+                <h2 class="carousel-text">Drive a fuel-efficient vehicle.</h2>
+                <p>Gas-efficient vehicles, such as hybrids and completely electric vehicles, save both money and gas.
+                    They'll be a mainstay until all automobiles and light trucks reach the clean car requirements of
+                    2025, which require an average of 54.5 miles per gallon.</p>
+            </div>
+            <div class="item">
+                <h2 class="carousel-text">Buy better bulbs</h2>
+                <P>LED lightbulbs consume up to 80% less energy than incandescent lights. They're also more
+                    cost-effective in the long run: A 10-watt LED bulb that replaces a 60-watt bulb will save you $125
+                    over the life of the bulb.</P>
+            </div>
+            <div class="item">
+                <h2 class="carousel-text">Pull the plug(s)</h2>
+                <p>The outlets in your house are likely powering around 65 different gadgets when combined, which is the
+                    typical load for a home in the United States. Even when they aren't all electronics equal to 50
+                    large power plants in the U.S.</p>
+            </div>
+
+
+
+            <script src="bootstrap.js"></script>
+            <script src="bootstrap.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+                crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+    </body>
+
+</html>
