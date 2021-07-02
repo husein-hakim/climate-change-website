@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>climate change animation</name>
+	<gx:CascadingStyle kml:id="__managed_style_131EED6DBE1B97A587CF">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_219703CD8A1B97A587CF">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_05442E45911B97A587CF">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_131EED6DBE1B97A587CF</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_219703CD8A1B97A587CF</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="03A50945061B97A587CE">
+		<name>Australia&apos;s Great Barrier Reef is in danger</name>
+		<LookAt>
+			<longitude>148.4921656804322</longitude>
+			<latitude>-17.87203464131796</latitude>
+			<altitude>310.7766676715261</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>698429.1658379138</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>147.6953567687113,-18.21472985028428,353.9962657183024</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01027338301B97A6D88D">
+		<name>Joshua trees at Joshua Tree National Park are dying</name>
+		<LookAt>
+			<longitude>-115.8606904885602</longitude>
+			<latitude>33.89998100172293</latitude>
+			<altitude>568.2872144654918</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>124034.3719032035</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>-115.8990902906779,33.89832648786226,750.7154026516635</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B31D35C191B97A7D232">
+		<name>Florida&apos;s Everglades are at risk</name>
+		<LookAt>
+			<longitude>-80.52373941682022</longitude>
+			<latitude>25.70601830937056</latitude>
+			<altitude>10.01079342222523</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999955455709</gx:fovy>
+			<range>81544.47584082372</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>-80.5549561,25.745929,5.233211153181479</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0038E956F71B97A88ABF">
+		<name>The Maldives could be swallowed up by the sea</name>
+		<LookAt>
+			<longitude>73.18352046486179</longitude>
+			<latitude>2.889261695793691</latitude>
+			<altitude>701.9849815803984</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999993767437</gx:fovy>
+			<range>1906148.081177473</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>73.22068,3.202778,543.5045995135158</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00ECD7057A1B97A9B23F">
+		<name>Chacaltaya glacier in Bolivia has all but disappeared</name>
+		<LookAt>
+			<longitude>-68.12194738459982</longitude>
+			<latitude>-16.34805531536423</latitude>
+			<altitude>5172.08017769155</altitude>
+			<heading>21.96102135494262</heading>
+			<tilt>29.29691480434936</tilt>
+			<gx:fovy>34.99999999315563</gx:fovy>
+			<range>4106.131264804281</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>-68.12781819999999,-16.3471166,5355.470178148453</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="019FA6539B1B97AA7A89">
+		<name>The Solomon Islands are disappearing</name>
+		<LookAt>
+			<longitude>160.702544541978</longitude>
+			<latitude>-9.521948064814771</latitude>
+			<altitude>285.0324704662894</altitude>
+			<heading>0.004276050676989499</heading>
+			<tilt>0.1275965076366382</tilt>
+			<gx:fovy>34.99999998820705</gx:fovy>
+			<range>832936.9349209964</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>160.156194,-9.645709999999999,769.304085754829</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BCCD937341B97ABB29D">
+		<name>The Alps&apos; glaciers are retreating</name>
+		<LookAt>
+			<longitude>9.677030196948348</longitude>
+			<latitude>46.88515440063866</latitude>
+			<altitude>1620.786295492759</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.9999999966826</gx:fovy>
+			<range>31934.97900087386</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>9.656999599999999,46.88761909999999,2236.905098312298</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01C056FCD71B97AD277D">
+		<name>The Great Salt Lake is no longer so great</name>
+		<LookAt>
+			<longitude>-112.5832016571535</longitude>
+			<latitude>41.18677883160655</latitude>
+			<altitude>1292.653474833987</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999992204754</gx:fovy>
+			<range>19055.30348090921</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>-112.6020754836398,41.19024351795527,1293.900952398175</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09BC0221311B97ADFC16">
+		<name>The Sahara Desert is expanding</name>
+		<LookAt>
+			<longitude>25.67465871303005</longitude>
+			<latitude>23.41587898970025</latitude>
+			<altitude>791.5781464304608</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999657017</gx:fovy>
+			<range>8110.757994710004</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>25.66283,23.4162027,984.2463287391942</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BEE5F310E1B97AF16A1">
+		<name>Mount Kilimanjaro’s glaciers are shrinking</name>
+		<LookAt>
+			<longitude>37.3536890693318</longitude>
+			<latitude>-3.06750495539076</latitude>
+			<altitude>5802.103057203726</altitude>
+			<heading>-125.3625975676168</heading>
+			<tilt>43.04357705292046</tilt>
+			<gx:fovy>34.99999999981669</gx:fovy>
+			<range>4355.144717177028</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>37.35562729999999,-3.0674247,5832.603293011995</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A87546E321B97B0312D">
+		<name>Easter Island is threatened by rising sea levels</name>
+		<LookAt>
+			<longitude>-109.3469124081445</longitude>
+			<latitude>-27.11392428505532</latitude>
+			<altitude>165.3445221290073</altitude>
+			<heading>-5.186345234575292e-05</heading>
+			<tilt>0.5419537452555209</tilt>
+			<gx:fovy>34.99999999997473</gx:fovy>
+			<range>1873.833627394633</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>-109.3496963729577,-27.11250687899478,191.712490652685</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D2512E6CF1B97B1208B">
+		<name>Montana’s Glacier National Park is losing its glaciers</name>
+		<LookAt>
+			<longitude>-113.7465903149885</longitude>
+			<latitude>48.77985654533823</latitude>
+			<altitude>1675.873496265396</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999183802</gx:fovy>
+			<range>55206.84925949201</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>-113.7873468279913,48.7722795089121,1840.962492496464</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01ED3C45121B97B20ED1">
+		<name>The Dead Sea is… dying</name>
+		<LookAt>
+			<longitude>35.76615565237529</longitude>
+			<latitude>31.40913486041333</latitude>
+			<altitude>921.4595613500429</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999900541</gx:fovy>
+			<range>92717.23872472532</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>35.4731895,31.5590287,-445.656797875577</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C7EFBB3241B97B2DB3D">
+		<name>Venice could disappear underwater</name>
+		<LookAt>
+			<longitude>12.32304616831838</longitude>
+			<latitude>45.44036243410228</latitude>
+			<altitude>3.35431305151688</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999998514</gx:fovy>
+			<range>3557.148500576732</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_05442E45911B97A587CF</styleUrl>
+		<Point>
+			<coordinates>12.3155911469951,45.44157533917314,10.05663959590491</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
